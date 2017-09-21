@@ -10,9 +10,9 @@ install:
   - npm install babel-preset-env --save-dev
   - npm install --save babel-polyfill
   - npm install -g truffle
-  - npm install -g chai
-  - npm install -g chai-as-promised
-  - npm install -g chai-bignumber
+  - npm install chai
+  - npm install chai-as-promised
+  - npm install --save-dev chai-bignumber
   - npm install zeppelin-solidity
   - npm install -g ethereumjs-testrpc
   - npm install -g web3

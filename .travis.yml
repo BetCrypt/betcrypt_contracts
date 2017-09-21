@@ -13,7 +13,7 @@ install:
   - npm install -g chai
   - npm install -g chai-as-promised
   - npm install -g chai-bignumber
-  - npm install -g zeppelin-solidity
+  - npm install zeppelin-solidity
   - npm install -g ethereumjs-testrpc
   - npm install -g web3
 

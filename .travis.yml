@@ -1,0 +1,24 @@
+dist: xenial
+sudo: false
+
+language: node_js
+node_js:
+  - "7"
+
+install:
+  - npm install -g truffle
+  - npm install -g babel-register --save-dev
+  - npm install -g --save babel-polyfill
+  - npm install -g chai
+  - npm install -g chai-as-promised
+  - npm install -g chai-bignumber
+  - npm install -g zeppelin-solidity
+  - npm install -g ethereumjs-testrpc
+  - npm install -g web3
+
+before_script:
+  - testrpc > testrpc.log &
+
+script:
+  - truffle test
+

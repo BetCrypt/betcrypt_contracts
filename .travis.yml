@@ -6,9 +6,10 @@ node_js:
   - "7"
 
 install:
+  - npm install babel-register --save-dev
+  - npm install babel-preset-env --save-dev
+  - npm install --save babel-polyfill
   - npm install -g truffle
-  - npm install -g babel-register --save-dev
-  - npm install -g --save babel-polyfill
   - npm install -g chai
   - npm install -g chai-as-promised
   - npm install -g chai-bignumber

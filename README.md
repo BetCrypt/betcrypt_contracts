@@ -4,6 +4,22 @@
 
 ### Install Dependencies
 ```bash
+# create a virtualenv
+virtualenv -p python3.6 venv
+. venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Compile and test
+```
+populus compile
+py.test tests/
+```
+
+# DEPRECATED VVVVVVVV
+
+### Install Dependencies
+```bash
 # install truffle and smart contract packages
 npm install -g truffle
 npm install zeppelin-solidity

@@ -1,0 +1,3 @@
+[submodule "microraiden"]
+	path = microraiden
+	url = https://github.com/raiden-network/microraiden.git

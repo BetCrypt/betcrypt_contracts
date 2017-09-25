@@ -1,7 +1,10 @@
 var CryptBill = artifacts.require("./CryptBill.sol");
 
 module.exports = function(deployer) {
-  const expectedInitialHolder = "0x407d73d8a49eeb85d32cf465507dd71d507100c1";
+  const initialAmount = 12345;
+  const tokenName = "CryptBill";
+  const decimalUnits = 18;
+  const tokenSymbol = "CB";
 
-  deployer.deploy(CryptBill, expectedInitialHolder);
+  deployer.deploy(CryptBill, initialAmount, tokenName, decimalUnits, tokenSymbol);
 };

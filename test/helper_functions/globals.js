@@ -3,6 +3,11 @@
 export const expectedInitialHolder = "0x407d73d8a49eeb85d32cf465507dd71d507100c1";
 export const expectedbetOwner = expectedInitialHolder;
 
+export const initialAmount = 12345;
+export const tokenName = "CryptBill";
+export const decimalUnits = 18;
+export const tokenSymbol = "CB";
+
 export const fullTitle = "This is a pretty long title, i'm able to hold up to 50*32 characters in a single bytes32[] array.  Each index should be a string of 32 characters, with a maximum of 50 indices";
 export const expectedTitle = ["This is a pretty long title, i'm", "able to hold up to 50*32 charac", "ters in a single bytes32[] array", ". Each index should be a string", "of 32 characters, with a maximu", "m of 50 indices"];
 
